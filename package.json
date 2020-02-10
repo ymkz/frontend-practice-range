@@ -20,6 +20,8 @@
     "build": "yarn workspaces run build",
     "lint:css": "yarn workspaces run lint:css",
     "lint:js": "yarn workspaces run lint:js",
+    "micro-observables:build": "yarn workspace @frontend-shooting-range/micro-observables build",
+    "micro-observables:dev": "yarn workspace @frontend-shooting-range/micro-observables dev",
     "nextjs-effector:build": "yarn workspace @frontend-shooting-range/nextjs-effector build",
     "nextjs-effector:dev": "yarn workspace @frontend-shooting-range/nextjs-effector dev",
     "typecheck": "yarn workspaces run typecheck"
