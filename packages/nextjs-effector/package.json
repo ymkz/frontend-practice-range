@@ -1,0 +1,35 @@
+{
+  "private": true,
+  "name": "@frontend-shooting-range/nextjs-effector",
+  "description": "ymkz's frontend shooting range",
+  "license": "MIT",
+  "author": "ymkz <ymkzly@gmail.com> (https://github.com/ymkz)",
+  "homepage": "https://github.com/ymkz/frontend-shooting-range",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ymkz/frontend-shooting-range"
+  },
+  "bugs": {
+    "url": "https://github.com/ymkz/frontend-shooting-range/issues"
+  },
+  "version": "0.0.0",
+  "main": "next.config.js",
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "lint:css": "stylelint 'src/**/*.{js,ts,tsx}'",
+    "lint:js": "eslint 'src/**/*.{js,ts,tsx}'",
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "effector": "^20.11.5",
+    "effector-react": "^20.6.0",
+    "next": "^9.2.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}
