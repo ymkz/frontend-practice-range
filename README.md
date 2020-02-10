@@ -11,6 +11,11 @@ yarn install
 ## Packages
 
 - `nextjs-effector` (Next.js + Effector with SSR)
+- `micro-observables` (Webpack + micro-observables with SPA)
+
+## Reference
+
+This repository based on [giannico/typescript-monorepo: A TypeScript monorepo utilizing TypeScript project references and yarn workspaces](https://github.com/giannico/typescript-monorepo)
 
 ## Author
 
