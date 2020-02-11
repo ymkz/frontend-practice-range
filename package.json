@@ -17,6 +17,8 @@
     "packages/*"
   ],
   "scripts": {
+    "babel-preval:build": "yarn workspace @frontend-shooting-range/babel-preval build",
+    "babel-preval:dev": "yarn workspace @frontend-shooting-range/babel-preval dev",
     "build": "yarn workspaces run build",
     "lint:css": "yarn workspaces run lint:css",
     "lint:js": "yarn workspaces run lint:js",

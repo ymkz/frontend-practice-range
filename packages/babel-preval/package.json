@@ -1,0 +1,42 @@
+{
+  "private": true,
+  "name": "@frontend-shooting-range/babel-preval",
+  "description": "ymkz's frontend shooting range",
+  "license": "MIT",
+  "author": "ymkz <ymkzly@gmail.com> (https://github.com/ymkz)",
+  "homepage": "https://github.com/ymkz/frontend-shooting-range",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ymkz/frontend-shooting-range"
+  },
+  "bugs": {
+    "url": "https://github.com/ymkz/frontend-shooting-range/issues"
+  },
+  "version": "0.0.0",
+  "main": "next.config.js",
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "lint:css": "stylelint 'src/**/*.{js,ts,tsx}'",
+    "lint:js": "eslint 'src/**/*.{js,ts,tsx}'",
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "front-matter": "^3.1.0",
+    "next": "^9.2.1",
+    "preval.macro": "^4.0.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@mdx-js/loader": "^1.5.5",
+    "@next/mdx": "^9.2.1",
+    "@types/preval.macro": "^3.0.0",
+    "babel-plugin-macros": "^2.8.0",
+    "remark-frontmatter": "^1.3.2"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}
