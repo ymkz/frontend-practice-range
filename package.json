@@ -24,6 +24,8 @@
     "micro-observables:dev": "yarn workspace @frontend-shooting-range/micro-observables dev",
     "nextjs-effector:build": "yarn workspace @frontend-shooting-range/nextjs-effector build",
     "nextjs-effector:dev": "yarn workspace @frontend-shooting-range/nextjs-effector dev",
+    "react-redux:build": "yarn workspace @frontend-shooting-range/react-redux build",
+    "react-redux:dev": "yarn workspace @frontend-shooting-range/react-redux dev",
     "typecheck": "yarn workspaces run typecheck"
   },
   "devDependencies": {
