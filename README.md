@@ -10,8 +10,10 @@ yarn install
 
 ## Packages
 
-- `nextjs-effector` (Next.js + Effector with SSR)
+- `babel-preval` (babel-plugin-preval example for next.js blog)
 - `micro-observables` (Webpack + micro-observables with SPA)
+- `nextjs-effector` (Next.js + Effector with SSR)
+- `react-redux` (React + Redux + TypeScript)
 
 ## Reference
 
