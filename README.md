@@ -17,7 +17,7 @@ yarn install
 
 ## Reference
 
-This repository based on [giannico/typescript-monorepo: A TypeScript monorepo utilizing TypeScript project references and yarn workspaces](https://github.com/giannico/typescript-monorepo)
+This repository is managed as monorepo based on [giannico/typescript-monorepo: A TypeScript monorepo utilizing TypeScript project references and yarn workspaces](https://github.com/giannico/typescript-monorepo)
 
 ## Author
 

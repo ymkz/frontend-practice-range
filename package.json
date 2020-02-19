@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "@frontend-shooting-range/nextjs-effector",
+  "name": "frontend-shooting-range",
   "description": "ymkz's frontend shooting range",
   "license": "MIT",
   "author": "ymkz <ymkzly@gmail.com> (https://github.com/ymkz)",
