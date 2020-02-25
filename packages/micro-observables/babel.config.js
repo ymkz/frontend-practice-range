@@ -2,7 +2,7 @@ module.exports = api => {
   api.cache(true)
   return {
     presets: [
-      ['@babel/preset-env', { targets: { node: true } }],
+      ['@babel/preset-env', { modules: false, targets: { esmodules: true } }],
       ['@babel/preset-react'],
       ['@babel/preset-typescript'],
     ],
