@@ -3699,10 +3699,10 @@ ee-first@1.1.1:
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
-effector-react@^20.6.1:
-  version "20.6.1"
-  resolved "https://registry.yarnpkg.com/effector-react/-/effector-react-20.6.1.tgz#69363029638544a131ac881855fca59fab2595fb"
-  integrity sha512-6o5z0QATQX2i87S5xa3xnYljVPuLaFGsfm8bDfJQ4n83aZYnNLzlvoXy0I//995u8X43qPmOqo5jDpvvO+2jFg==
+effector-react@^20.6.2:
+  version "20.6.2"
+  resolved "https://registry.yarnpkg.com/effector-react/-/effector-react-20.6.2.tgz#e0b824bbbe26198f76606de6a14f5759870b1ed0"
+  integrity sha512-tWg22y4iH3Y1kzuM6oFevxWxIIQuywCb6XBLp2qvG0WC2W6IwHU+qBN7F72Q3fy/jP8Qy9Ki0jLcqb35+757MQ==
 
 effector@^20.12.1:
   version "20.12.1"
