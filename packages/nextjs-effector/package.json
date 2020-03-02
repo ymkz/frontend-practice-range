@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "effector": "^20.12.1",
-    "effector-react": "^20.6.1",
+    "effector-react": "^20.6.2",
     "next": "^9.2.2",
     "react": "^16.13.0",
     "react-dom": "^16.13.0"
