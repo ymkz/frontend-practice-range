@@ -31,7 +31,7 @@
     "typecheck": "yarn workspaces run typecheck"
   },
   "devDependencies": {
-    "@babel/core": "^7.8.6",
+    "@babel/core": "^7.8.7",
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
     "@types/node": "^13.7.7",
