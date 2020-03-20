@@ -27,7 +27,7 @@
     "effector-react": "^20.6.3",
     "next": "^9.3.1",
     "react": "^16.13.0",
-    "react-dom": "^16.13.0"
+    "react-dom": "^16.13.1"
   },
   "engines": {
     "node": "12.x"
