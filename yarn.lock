@@ -1732,12 +1732,12 @@
   resolved "https://registry.yarnpkg.com/@ymkz/prettier-config/-/prettier-config-1.0.0.tgz#1b3992b9de43c64af1dc3645a03930ee4197d1be"
   integrity sha512-5St0qwqOz+hH5UDeputPbsHuiR4j34vR43Gzn9NKO+f8HLuzmu87Stn6/SkmsdekpdaF1aFQmicSYCfKWAUGUA==
 
-"@ymkz/stylelint-config@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@ymkz/stylelint-config/-/stylelint-config-1.0.0.tgz#7e0ada6ecb50891432dbb8d024377d0c3e3db2de"
-  integrity sha512-9pbLUnO5+kRdC3S5FJbX7x2sl8vWJ7r/PimdJtssbRpuLrloTmrGuz8icv550FIJpJDEFiSMs6fKaqyyarwFxw==
+"@ymkz/stylelint-config@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@ymkz/stylelint-config/-/stylelint-config-1.1.0.tgz#507a176a7d480c3def1be29c9ccaa3fdf1029ecd"
+  integrity sha512-EuYrGjvwvc4OVTVh1uqk9x1m8hROQB2edCtMgT6e4T+04R+sANS8iVA3OfaU6KMO5GW6q0/7Mu3AdbEvxH/o6w==
   dependencies:
-    stylelint-config-prettier "8.0.0"
+    stylelint-config-prettier "8.0.1"
     stylelint-config-rational-order "0.1.2"
     stylelint-config-recommended "3.0.0"
 
@@ -9933,10 +9933,10 @@ styled-jsx@3.2.5:
     stylis "3.5.4"
     stylis-rule-sheet "0.0.10"
 
-stylelint-config-prettier@8.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/stylelint-config-prettier/-/stylelint-config-prettier-8.0.0.tgz#82b36b46fce60e92a1a32dd483ec4e3e857d3af3"
-  integrity sha512-C1FpThYJ7Y8omangeNngmp30PlO6uh3Au2b5w4Xw4xBTZy8aTx/R1AXcP9Ik0DJqINk7F7rwaKWqOLU/g7laGg==
+stylelint-config-prettier@8.0.1:
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/stylelint-config-prettier/-/stylelint-config-prettier-8.0.1.tgz#ec7cdd7faabaff52ebfa56c28fed3d995ebb8cab"
+  integrity sha512-RcjNW7MUaNVqONhJH4+rtlAE3ow/9SsAM0YWV0Lgu3dbTKdWTa/pQXRdFWgoHWpzUKn+9oBKR5x8JdH+20wmgw==
 
 stylelint-config-rational-order@0.1.2:
   version "0.1.2"
