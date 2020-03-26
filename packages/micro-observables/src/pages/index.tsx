@@ -15,7 +15,7 @@ const Count = () => {
         <button onClick={() => countService.increment()}>+1</button>
         <button onClick={() => countService.decrement()}>-1</button>
         <button onClick={() => countService.incrementBy(value)}>+{value}</button>
-        <input onChange={event => setValue(parseInt(event.currentTarget.value))} value={value} />
+        <input onChange={(event) => setValue(parseInt(event.currentTarget.value))} value={value} />
         <button onClick={() => countService.decrementBy(value)}>-{value}</button>
       </div>
     </div>

@@ -15,7 +15,7 @@ const Index = () => {
         <button onClick={() => countEvent.increment()}>+1</button>
         <button onClick={() => countEvent.decrement()}>-1</button>
         <button onClick={() => countEvent.incrementBy(value)}>+{value}</button>
-        <input onChange={event => setValue(parseInt(event.currentTarget.value))} value={value} />
+        <input onChange={(event) => setValue(parseInt(event.currentTarget.value))} value={value} />
         <button onClick={() => countEvent.decrementBy(value)}>-{value}</button>
       </div>
     </React.Fragment>

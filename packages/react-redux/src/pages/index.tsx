@@ -5,7 +5,7 @@ import { countActions } from '~/store/count'
 
 const Count = () => {
   const [value, setValue] = React.useState(100)
-  const count = useSelector(state => state.count)
+  const count = useSelector((state) => state.count)
   const dispatch = useDispatch()
 
   return (
@@ -16,7 +16,7 @@ const Count = () => {
         <button onClick={() => dispatch(countActions.increment())}>+1</button>
         <button onClick={() => dispatch(countActions.decrement())}>-1</button>
         <button onClick={() => dispatch(countActions.incrementBy(value))}>+{value}</button>
-        <input value={value} onChange={event => setValue(parseInt(event.currentTarget.value))} />
+        <input value={value} onChange={(event) => setValue(parseInt(event.currentTarget.value))} />
         <button onClick={() => dispatch(countActions.decrementBy(value))}>-{value}</button>
       </div>
     </div>

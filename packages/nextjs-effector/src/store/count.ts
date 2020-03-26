@@ -13,8 +13,8 @@ export const countEvent = {
 }
 
 export const countStore = createStore(initialState)
-  .on(countEvent.increment, state => state + 1)
-  .on(countEvent.decrement, state => state - 1)
+  .on(countEvent.increment, (state) => state + 1)
+  .on(countEvent.decrement, (state) => state - 1)
   .on(countEvent.incrementBy, (state, payload) => state + payload)
   .on(countEvent.decrementBy, (state, payload) => state - payload)
   .reset(countEvent.reset)

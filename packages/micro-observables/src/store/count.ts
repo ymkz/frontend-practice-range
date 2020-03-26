@@ -14,19 +14,19 @@ class CountService {
   }
 
   increment() {
-    this._count.update(count => count + 1)
+    this._count.update((count) => count + 1)
   }
 
   decrement() {
-    this._count.update(count => count - 1)
+    this._count.update((count) => count - 1)
   }
 
   incrementBy(value: CountState) {
-    this._count.update(count => count + value)
+    this._count.update((count) => count + value)
   }
 
   decrementBy(value: CountState) {
-    this._count.update(count => count - value)
+    this._count.update((count) => count - value)
   }
 }
 

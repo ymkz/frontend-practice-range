@@ -1,3 +1,10 @@
 root: true
 extends:
   - '@ymkz/eslint-config'
+  - '@ymkz/eslint-config/react'
+  - '@ymkz/eslint-config/import'
+  - '@ymkz/eslint-config/typescript'
+settings:
+  import/resolver:
+    typescript:
+      directory: 'packages/*/tsconfig.json'
