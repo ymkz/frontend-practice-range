@@ -1,16 +1,16 @@
 {
   "private": true,
   "name": "react-redux",
-  "description": "ymkz's frontend shooting range",
+  "description": "ymkz's frontend practice range",
   "license": "MIT",
   "author": "ymkz <ymkzly@gmail.com> (https://github.com/ymkz)",
-  "homepage": "https://github.com/ymkz/frontend-shooting-range",
+  "homepage": "https://github.com/ymkz/frontend-practice-range",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ymkz/frontend-shooting-range"
+    "url": "https://github.com/ymkz/frontend-practice-range"
   },
   "bugs": {
-    "url": "https://github.com/ymkz/frontend-shooting-range/issues"
+    "url": "https://github.com/ymkz/frontend-practice-range/issues"
   },
   "version": "0.0.0",
   "main": "package.json",

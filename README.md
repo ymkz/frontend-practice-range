@@ -1,6 +1,6 @@
-# Frontend Shooting Range
+# Frontend Practice Range
 
-> ymkz's frontend shooting range
+> ymkz's frontend practice range
 
 ## Install
 
