@@ -2,7 +2,7 @@ on: pull_request
 env:
   CI: true
   TZ: Asia/Tokyo
-  CACHE: alpha
+  CACHE: bravo
 jobs:
   dump:
     runs-on: ubuntu-latest
