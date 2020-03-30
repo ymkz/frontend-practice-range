@@ -2,7 +2,7 @@ on: pull_request
 env:
   CI: true
   TZ: Asia/Tokyo
-  CACHE: apple
+  CACHE: alpha
 jobs:
   dump:
     runs-on: ubuntu-latest
@@ -28,13 +28,16 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: ${{ steps.node-version.outputs.version }}
+      - run: echo "::set-output name=dir::$(yarn cache dir)"
+        id: yarn-cache-dir-path
       - uses: actions/cache@v1
         id: yarn-cache
         with:
-          path: node_modules
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
           key: ${{ env.CACHE }}-${{ runner.os }}-yarn-${{ hashFiles('yarn.lock') }}
-          restore-keys: ${{ env.CACHE }}-${{ runner.os }}-yarn-
-      - run: yarn install --frozen-lockfile
+          restore-keys: |
+            ${{ env.CACHE }}-${{ runner.os }}-yarn-
+      - run: yarn install
         if: steps.yarn-cache.outputs.cache-hit != 'true'
       - run: yarn run lint:js
       - run: yarn run lint:css
