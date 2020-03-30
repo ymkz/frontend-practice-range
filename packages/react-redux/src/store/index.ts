@@ -1,7 +1,7 @@
 import { combineReducers, configureStore } from '@reduxjs/toolkit'
 import { TypedUseSelectorHook, useDispatch as _useDispatch, useSelector as _useSelector } from 'react-redux'
 
-import { countReducer } from '~/store/count'
+import { countReducer } from './count'
 
 const reducer = combineReducers({
   count: countReducer,

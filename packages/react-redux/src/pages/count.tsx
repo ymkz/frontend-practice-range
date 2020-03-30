@@ -1,9 +1,9 @@
 import React from 'react'
 
-import { useDispatch, useSelector } from '~/store'
-import { countActions } from '~/store/count'
+import { useDispatch, useSelector } from '../store'
+import { countActions } from '../store/count'
 
-const Count = () => {
+export const Count = () => {
   const [value, setValue] = React.useState(100)
   const count = useSelector((state) => state.count)
   const dispatch = useDispatch()

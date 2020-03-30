@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "@frontend-shooting-range/nextjs-effector",
+  "name": "nextjs-effector",
   "description": "ymkz's frontend shooting range",
   "license": "MIT",
   "author": "ymkz <ymkzly@gmail.com> (https://github.com/ymkz)",
@@ -25,7 +25,7 @@
   "dependencies": {
     "effector": "^20.13.4",
     "effector-react": "^20.6.3",
-    "next": "^9.3.1",
+    "next": "^9.3.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },

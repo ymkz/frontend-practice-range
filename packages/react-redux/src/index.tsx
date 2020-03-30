@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom'
 import { Provider as ReduxProvider } from 'react-redux'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
-import Count from '~/pages'
-import { store } from '~/store'
+import { Count } from './pages/count'
+import { store } from './store'
 
 const App = () => {
   return (

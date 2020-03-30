@@ -1,7 +1,7 @@
 import { useStore } from 'effector-react'
 import React from 'react'
 
-import { countEvent, countStore } from '~/store/count'
+import { countEvent, countStore } from '../store/count'
 
 const Index = () => {
   const [value, setValue] = React.useState(100)

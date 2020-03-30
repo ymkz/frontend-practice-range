@@ -1,4 +1,4 @@
-module.exports = api => {
+module.exports = (api) => {
   api.cache(true)
   return {
     presets: [
@@ -6,9 +6,6 @@ module.exports = api => {
       ['@babel/preset-react'],
       ['@babel/preset-typescript'],
     ],
-    plugins: [
-      ['@babel/plugin-proposal-class-properties'],
-      ['module-resolver', { alias: { '~': './src' }, extensions: ['.js', '.ts', '.tsx'] }],
-    ],
+    plugins: [['@babel/plugin-proposal-class-properties']],
   }
 }

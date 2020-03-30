@@ -17,6 +17,9 @@ module.exports = (_, argv) => {
       publicPath: '/',
     },
     resolve: {
+      alias: {
+        '~': path.resolve(__dirname, 'src'),
+      },
       extensions: ['.js', '.ts', '.tsx'],
     },
     optimization: __DEV__ ? undefined : { minimize: true, splitChunks: { chunks: 'all' } },

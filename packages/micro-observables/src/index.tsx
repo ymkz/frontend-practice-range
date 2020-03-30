@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
-import Count from '~/pages'
+import Count from './pages'
 
 const App = () => {
   return (

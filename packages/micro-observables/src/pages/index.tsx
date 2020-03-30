@@ -1,7 +1,7 @@
 import { useObservable } from 'micro-observables'
 import React from 'react'
 
-import { countService } from '~/store/count'
+import { countService } from '../store/count'
 
 const Count = () => {
   const [value, setValue] = React.useState(100)
