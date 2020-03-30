@@ -3,7 +3,7 @@ import React from 'react'
 
 import { countService } from '../store/count'
 
-const Count = () => {
+export const Count = () => {
   const [value, setValue] = React.useState(100)
   const count = useObservable(countService.count)
 
@@ -21,5 +21,3 @@ const Count = () => {
     </div>
   )
 }
-
-export default Count
