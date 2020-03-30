@@ -9,3 +9,5 @@
   - prettier --write
 '*.md':
   - prettier --write
+'*':
+  - secretlint
