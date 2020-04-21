@@ -1526,11 +1526,6 @@
     "@secretlint/types" "^1.1.0"
     istextorbinary "^3.3.0"
 
-"@secretlint/types@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@secretlint/types/-/types-1.0.1.tgz#571361f5dd1556095958c304eafa4147fac8e9b6"
-  integrity sha512-kJYH20+NZrrfPULYO68oIH46p0Kd8kh9xZCIOd/eYUgWsYYH/VMJ0Vszcx1iJ+DKjX8ri2QWkP3NkSjzqE4tpA==
-
 "@secretlint/types@^1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@secretlint/types/-/types-1.1.0.tgz#dafb350d711b24e0b19443b63d4fb1f816a5e7bc"
@@ -1661,10 +1656,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.31.tgz#d6b4f9645fee17f11319b508fb1001797425da51"
   integrity sha512-T+wnJno8uh27G9c+1T+a1/WYCHzLeDqtsGJkoEdSp2X8RTh3oOCZQcUnjAx90CS8cmmADX51O0FI/tu9s0yssg==
 
-"@types/node@^13.9.5":
-  version "13.9.5"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.9.5.tgz#59738bf30b31aea1faa2df7f4a5f55613750cf00"
-  integrity sha512-hkzMMD3xu6BrJpGVLeQ3htQQNAcOrJjX7WFmtK8zWQpz2UJf13LCFF2ALA7c9OVdvc2vQJeDdjfR35M0sBCxvw==
+"@types/node@^13.13.1":
+  version "13.13.1"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.13.1.tgz#1ba94c5a177a1692518bfc7b41aec0aa1a14354e"
+  integrity sha512-uysqysLJ+As9jqI5yqjwP3QJrhOcUwBjHUlUxPxjbplwKoILvXVsmYWEhfmAQlrPfbRZmhJB007o4L9sKqtHqQ==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
