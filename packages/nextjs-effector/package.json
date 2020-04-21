@@ -23,7 +23,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "effector": "^20.13.4",
+    "effector": "^20.14.0",
     "effector-react": "^20.6.3",
     "next": "^9.3.3",
     "react": "^16.13.1",
