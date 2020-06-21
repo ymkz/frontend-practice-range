@@ -30,8 +30,8 @@
     "typecheck": "yarn workspaces run typecheck"
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.3.5",
-    "@commitlint/config-conventional": "^8.3.4",
+    "@commitlint/cli": "^9.0.1",
+    "@commitlint/config-conventional": "^9.0.1",
     "@secretlint/secretlint-rule-preset-recommend": "^2.0.0",
     "@ymkz/eslint-config": "^1.4.0",
     "@ymkz/prettier-config": "^1.1.0",
